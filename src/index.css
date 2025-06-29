@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Fuente personalizada */
+@font-face {
+  font-family: 'Boxing-Regular';
+  src: url('./assets/fonts/Boxing-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
