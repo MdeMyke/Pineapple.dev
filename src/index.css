@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+/*
+  CONFIGURACIÓN DE TAILWIND V4:
+  Aquí definimos los tokens de diseño (colores, fuentes, etc.)
+  directamente en el CSS usando la directiva @theme.
+*/
+@theme {
+  --color-primary: #000000;
+  --color-secondary: #FFD700;
+  --color-white: #FFFFFF;
+  --color-white-off: #F8F9FA;
+  --font-boxing: 'Boxing-Regular', sans-serif;
+}
+
+@import 'tailwindcss/utilities';
+
 /* Fuente personalizada */
 @font-face {
   font-family: 'Boxing-Regular';
