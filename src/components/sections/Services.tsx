@@ -15,7 +15,7 @@ const Services: React.FC = () => {
         {/* Columna Izquierda */}
         <div className="flex flex-col bg-white-off rounded-2xl p-8">
           <h2 className="text-6xl font-black text-primary uppercase tracking-wide leading-tight mb-8">
-            Explora Nuestros<br/>Servicios
+            Explora Mis<br/>Conocimientos
           </h2>
           {/* Marcador de posición para la imagen 3D */}
           <div className="bg-white rounded-2xl w-full flex-grow flex items-center justify-center">
