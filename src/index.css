@@ -7,13 +7,11 @@
 */
 @theme {
   --color-primary: #000000;
-  --color-secondary: #FFD700;
+  --color-secondary: #fbab3e;
   --color-white: #FFFFFF;
   --color-white-off: #F8F9FA;
   --font-boxing: 'Boxing-Regular', sans-serif;
 }
-
-@import 'tailwindcss/utilities';
 
 /* Fuente personalizada */
 @font-face {
