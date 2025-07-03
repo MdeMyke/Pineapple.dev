@@ -6,6 +6,7 @@ import Companies from './components/sections/Companies';
 import Contact from './components/sections/Contact';
 import MiniBanner from './components/sections/Minibanner';
 import Movil from './components/sections/Movil';
+import Web from './components/sections/Web';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Companies />
         <Movil />
+        <Web />
         <Contact />
       </main>
     </div>

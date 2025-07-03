@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       {/* Div a la izquierda con CardSwap, más a la derecha */}
       <div
         style={{ height: '600px', width: '400px', position: 'relative' }}
-        className="ml-32 flex items-center -mt-70"
+        className="ml-42 flex items-center -mt-70"
       >
         <CardSwap
           cardDistance={60}
@@ -71,27 +71,27 @@ const Hero: React.FC = () => {
 
       {/* Lado Derecho: Contenido original */}
       <div className="flex-1 relative h-full">
-        <div className="absolute top-8 right-4 flex items-start space-x-6 md:space-x-12">
-          <div className="text-left">
+      <div className="absolute top-8 right-4 flex items-start space-x-6 md:space-x-12">
+        <div className="text-left">
             <p className="text-4xl md:text-5xl font-bold text-primary">+3</p>
             <p className="text-xs uppercase text-gray-500 tracking-wider">Años de Experiencia</p>
-          </div>
-          <div className="text-left">
-            <p className="text-4xl md:text-5xl font-bold text-primary">+30</p>
-            <p className="text-xs uppercase text-gray-500 tracking-wider">Proyectos Completados</p>
-          </div>
-          <div className="text-left">
-            <p className="text-4xl md:text-5xl font-bold text-primary">+40</p>
-            <p className="text-xs uppercase text-gray-500 tracking-wider">Clientes Felices</p>
-          </div>
         </div>
+        <div className="text-left">
+          <p className="text-4xl md:text-5xl font-bold text-primary">+30</p>
+            <p className="text-xs uppercase text-gray-500 tracking-wider">Proyectos Completados</p>
+        </div>
+        <div className="text-left">
+            <p className="text-4xl md:text-5xl font-bold text-primary">+40</p>
+          <p className="text-xs uppercase text-gray-500 tracking-wider">Clientes Felices</p>
+        </div>
+      </div>
         <div className="absolute bottom-8 right-4 text-right">
 
-          <h1 className="font-sans text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-primary leading-none">
-            FULL<br/>
-            STACK<br/>
-            CODER
-          </h1>
+        <h1 className="font-sans text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-primary leading-none">
+          FULL<br/>
+          STACK<br/>
+          CODER
+        </h1>
         </div>
       </div>
     </section>
