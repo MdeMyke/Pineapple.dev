@@ -1,8 +1,8 @@
 import React from 'react';
 import CardSwap, { Card } from '../ui/CardSwap';
-import logo from '../../assets/desarrollo.png';
-import aboutM from '../../assets/diseño.png';
-import aboutY from '../../assets/rebra.png';
+import logo from '../../assets/desarrolloo.png';
+import aboutM from '../../assets/diseñoo.png';
+import aboutY from '../../assets/rebraa.png';
 
 const Hero: React.FC = () => {
   return (
