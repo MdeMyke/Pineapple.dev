@@ -22,7 +22,7 @@ const Services: React.FC = () => {
           </h2>
           {/* Imagen NFT totalmente pegada abajo, sin margen ni padding */}
           <div className="w-full flex-grow flex items-end justify-center p-0 m-0" style={{paddingBottom: 0, marginBottom: 0, minHeight: 0}}>
-            <img src={nft} alt="NFT" className="w-3/4 object-contain" style={{marginBottom: 0, paddingBottom: 0, display: 'block'}} />
+            <img src={nft} alt="NFT" className="w-2/4 object-contain" style={{marginBottom: 0, paddingBottom: 0, display: 'block'}} />
           </div>
         </div>
 
