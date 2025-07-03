@@ -4,7 +4,7 @@ import cv from '../../assets/archivos/maicol-piña-developer-cv.pdf';
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-white py-4 px-6 flex items-center justify-between">
+    <header className="bg-white/30 backdrop-blur-2xl backdrop-saturate-150 border border-white/30 shadow-lg rounded-b-2xl py-4 px-6 flex items-center justify-between">
       <div className="flex items-center">
         <img src={logo} alt="Pineapple.dev logo" className="h-12 w-18 mr-4" />
         <h1 className="text-3xl font-boxing text-primary">

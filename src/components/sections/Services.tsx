@@ -7,13 +7,15 @@ const ArrowUpRightIcon = () => (
     </svg>
 );
 
+const glass = "bg-white/30 backdrop-blur-2xl backdrop-saturate-150 shadow-lg rounded-2xl border border-black";
+
 const Services: React.FC = () => {
   return (
-    <section className="bg-red-100 p-4">
+    <section className="p-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
         
         {/* Columna Izquierda */}
-        <div className="flex flex-col bg-white-off rounded-2xl p-8">
+        <div className={`flex flex-col p-8 ${glass}`}>
           <h2 className="text-6xl font-black text-primary uppercase tracking-wide leading-tight mb-8">
             Explora Mis<br/>Conocimientos
           </h2>
@@ -26,7 +28,7 @@ const Services: React.FC = () => {
         {/* Columna Derecha */}
         <div className="space-y-2">
             {/* Servicio 1 */}
-            <div className="group bg-white-off rounded-2xl p-4 transition-all hover:shadow-xl hover:-translate-y-1">
+            <div className={`group p-4 transition-all hover:shadow-xl hover:-translate-y-1 ${glass}`}>
                 <h3 className="text-3xl font-bold text-primary uppercase">Identidad de Marca<br/>Única</h3>
                 <div className="flex justify-between items-end mt-4">
                     <p className="text-sm text-gray-600 uppercase max-w-[150px]">Diseño identidades de marca únicas y memorables</p>
@@ -46,7 +48,7 @@ const Services: React.FC = () => {
             </div>
 
             {/* Servicio 3 */}
-            <div className="group bg-white-off rounded-2xl p-4 transition-all hover:shadow-xl hover:-translate-y-1">
+            <div className={`group p-4 transition-all hover:shadow-xl hover:-translate-y-1 ${glass}`}>
                 <h3 className="text-3xl font-bold text-primary uppercase">Diseño UX/UI</h3>
                 <div className="flex justify-between items-end mt-4">
                     <p className="text-sm text-gray-600 uppercase max-w-[150px]">Garantizo experiencias intuitivas y atractivas</p>

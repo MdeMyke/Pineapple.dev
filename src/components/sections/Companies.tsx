@@ -19,7 +19,7 @@ export default function Companies() {
   ];
 
   return (
-    <section className="w-full py-6 md:py-10 bg-gradient-to-b from-gray-50 to-white overflow-hidden relative">
+    <section className="w-full py-6 md:py-10 overflow-hidden relative">
       <div className="container mx-auto px-4">
         {/* Título de la sección */}
         <div className="text-center mb-16">
