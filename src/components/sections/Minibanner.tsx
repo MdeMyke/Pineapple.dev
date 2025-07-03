@@ -14,7 +14,7 @@ const MiniBanner = () => {
   // Repetimos la frase varias veces para el efecto infinito
   const repeatCount = 10;
   const repeated = Array.from({ length: repeatCount }, (_, i) =>
-    phrase.map((el, idx) => React.cloneElement(el, { key: `${el.key}-${i}` }))
+    phrase.map(el => React.cloneElement(el, { key: `${el.key}-${i}` }))
   ).flat();
 
   return (
