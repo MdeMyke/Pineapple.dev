@@ -5,7 +5,7 @@ import About from './components/sections/About';
 import Companies from './components/sections/Companies';
 import Contact from './components/sections/Contact';
 import MiniBanner from './components/sections/Minibanner';
-import Movil from './components/sections/movil';
+import Movil from './components/sections/Movil';
 
 function App() {
   return (

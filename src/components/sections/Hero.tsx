@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       {/* Div a la izquierda con CardSwap, más a la derecha */}
       <div
         style={{ height: '600px', width: '400px', position: 'relative' }}
-        className="ml-32 flex items-center -mt-40"
+        className="ml-32 flex items-center -mt-70"
       >
         <CardSwap
           cardDistance={60}
@@ -22,24 +22,48 @@ const Hero: React.FC = () => {
           pauseOnHover={false}
         >
           <Card>
-            <img src={logo} alt="Logo" className="w-full h-48 object-cover rounded-t-xl" />
-            <div className="p-4">
-              <h3 className="text-white text-xl font-bold">Logo</h3>
-              <p className="text-white">Esta es una tarjeta con el logo.</p>
+            <div className="flex flex-col h-full w-full rounded-xl overflow-hidden bg-black border border-white">
+              <div className="p-4 pb-0">
+                <h3 className="text-white text-xl font-bold text-center">Logo</h3>
+              </div>
+              <div className="flex-1">
+                <img
+                  src={logo}
+                  alt="Logo"
+                  className="w-full h-full object-cover"
+                  style={{ minHeight: 0, minWidth: 0 }}
+                />
+              </div>
             </div>
           </Card>
           <Card>
-            <img src={aboutM} alt="About M" className="w-full h-48 object-cover rounded-t-xl" />
-            <div className="p-4">
-              <h3 className="text-white text-xl font-bold">About M</h3>
-              <p className="text-white">Imagen about-m.jpeg</p>
+            <div className="flex flex-col h-full w-full rounded-xl overflow-hidden bg-black border border-white">
+              <div className="p-4 pb-0">
+                <h3 className="text-white text-xl font-bold text-center">About M</h3>
+              </div>
+              <div className="flex-1">
+                <img
+                  src={aboutM}
+                  alt="About M"
+                  className="w-full h-full object-cover"
+                  style={{ minHeight: 0, minWidth: 0 }}
+                />
+              </div>
             </div>
           </Card>
           <Card>
-            <img src={aboutY} alt="About Y" className="w-full h-48 object-cover rounded-t-xl" />
-            <div className="p-4">
-              <h3 className="text-white text-xl font-bold">About Y</h3>
-              <p className="text-white">Imagen about-y.jpeg</p>
+            <div className="flex flex-col h-full w-full rounded-xl overflow-hidden bg-black border border-white">
+              <div className="p-4 pb-0">
+                <h3 className="text-white text-xl font-bold text-center">About Y</h3>
+              </div>
+              <div className="flex-1">
+                <img
+                  src={aboutY}
+                  alt="About Y"
+                  className="w-full h-full object-cover"
+                  style={{ minHeight: 0, minWidth: 0 }}
+                />
+              </div>
             </div>
           </Card>
         </CardSwap>
