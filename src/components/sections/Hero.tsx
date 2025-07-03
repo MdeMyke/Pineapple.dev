@@ -1,8 +1,8 @@
 import React from 'react';
 import CardSwap, { Card } from '../ui/CardSwap';
-import logo from '../../assets/logo.png';
-import aboutM from '../../assets/about-m.jpeg';
-import aboutY from '../../assets/about-y.jpeg';
+import logo from '../../assets/desarrollo.png';
+import aboutM from '../../assets/diseño.png';
+import aboutY from '../../assets/rebra.png';
 
 const Hero: React.FC = () => {
   return (
@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           <Card>
             <div className="flex flex-col h-full w-full rounded-xl overflow-hidden bg-black border border-white">
               <div className="p-4 pb-0">
-                <h3 className="text-white text-xl font-bold text-center">Logo</h3>
+                <h3 className="text-white text-xl font-bold text-center">Desarrollo</h3>
               </div>
               <div className="flex-1">
                 <img
@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
           <Card>
             <div className="flex flex-col h-full w-full rounded-xl overflow-hidden bg-black border border-white">
               <div className="p-4 pb-0">
-                <h3 className="text-white text-xl font-bold text-center">About M</h3>
+                <h3 className="text-white text-xl font-bold text-center">Diseño</h3>
               </div>
               <div className="flex-1">
                 <img
@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
           <Card>
             <div className="flex flex-col h-full w-full rounded-xl overflow-hidden bg-black border border-white">
               <div className="p-4 pb-0">
-                <h3 className="text-white text-xl font-bold text-center">About Y</h3>
+                <h3 className="text-white text-xl font-bold text-center">Brand Identity</h3>
               </div>
               <div className="flex-1">
                 <img
@@ -73,22 +73,20 @@ const Hero: React.FC = () => {
       <div className="flex-1 relative h-full">
         <div className="absolute top-8 right-4 flex items-start space-x-6 md:space-x-12">
           <div className="text-left">
-            <p className="text-4xl md:text-5xl font-bold text-primary">+50</p>
-            <p className="text-xs uppercase text-gray-500 tracking-wider">Proyectos Completados</p>
+            <p className="text-4xl md:text-5xl font-bold text-primary">+3</p>
+            <p className="text-xs uppercase text-gray-500 tracking-wider">Años de Experiencia</p>
           </div>
           <div className="text-left">
             <p className="text-4xl md:text-5xl font-bold text-primary">+30</p>
-            <p className="text-xs uppercase text-gray-500 tracking-wider">Empresas Confian</p>
+            <p className="text-xs uppercase text-gray-500 tracking-wider">Proyectos Completados</p>
           </div>
           <div className="text-left">
-            <p className="text-4xl md:text-5xl font-bold text-primary">+100</p>
+            <p className="text-4xl md:text-5xl font-bold text-primary">+40</p>
             <p className="text-xs uppercase text-gray-500 tracking-wider">Clientes Felices</p>
           </div>
         </div>
         <div className="absolute bottom-8 right-4 text-right">
-          <a href="#contact" className="text-lg font-semibold text-purple-600 mb-4 inline-block">
-            Descarga mi HV &rarr;
-          </a>
+
           <h1 className="font-sans text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-primary leading-none">
             FULL<br/>
             STACK<br/>
