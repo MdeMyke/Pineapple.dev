@@ -11,7 +11,7 @@ const About: React.FC = () => {
       <h2 className="text-5xl md:text-6xl font-black uppercase tracking-wide text-center mb-2">
         HOLA <span className="text-secondary">SOY</span> <span className="font-boxing">MAICOL</span>
       </h2>
-      <p className="text-lg md:text-xl text-gray-500 text-center mb-6">ejemplo de subtitulo</p>
+      <p className="text-lg md:text-xl text-gray-500 text-center mb-6"></p>
       <div
         className="grid grid-cols-4 grid-rows-3 gap-0"
         style={{ width: '100vw', maxWidth: '900px', aspectRatio: '4/3' }}
@@ -31,7 +31,7 @@ const About: React.FC = () => {
         {/* 4: Texto superior derecho */}
         <div className={`border border-black flex flex-col items-end justify-start p-2 text-xs text-right aspect-square w-full h-full overflow-hidden flex-shrink-0 ${glass}`}>
           <span className="font-semibold break-words w-full">Acerca de mí</span>
-          <span className="break-words w-full">Creador digital y desarrollador con pasión por el diseño y la tecnología.</span>
+          <span className="break-words w-full">Soy una persona apasionada por el aprendizaje y la creatividad. Me encanta leer libros de todo tipo, disfruto mucho de la natación y los videojuegos, actividades que me ayudan a relajarme y mantenerme motivado. Además, Mani —que puedes ver en la foto al lado— es una gran fuente de inspiración para mis diseños, ya que su energía y alegría me impulsan a crear experiencias digitales más humanas y auténticas.</span>
         </div>
         {/* 5: Frase creativa */}
         <div className={`border border-black flex items-center p-2 md:p-4 aspect-square w-full h-full overflow-hidden flex-shrink-0 ${glass}`}>

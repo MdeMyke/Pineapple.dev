@@ -5,16 +5,16 @@ const glass = "bg-white/30 backdrop-blur-2xl backdrop-saturate-150 shadow-lg rou
 
 const cards = [
   {
-    title: 'Transparencia de Ingredientes',
-    desc: 'Explora una biblioteca detallada de ingredientes para tomar decisiones informadas.'
+    title: 'Takuna Ecoturismo',
+    desc: 'Descubre y explora rutas ecológicas para todos los niveles, con mapas interactivos y recomendaciones personalizadas.'
   },
   {
-    title: 'Compra sin esfuerzo',
-    desc: 'Navega, compra y paga de forma segura y sencilla.'
+    title: 'Avistamiento de Aves',
+    desc: 'Registra y comparte tus avistamientos, accede a una guía de aves locales y participa en retos de observación.'
   },
   {
-    title: 'Etapas',
-    desc: 'Investigación, funcionalidades, wireframes y accesibilidad.'
+    title: 'Comunidad y Experiencias',
+    desc: 'Conecta con otros ecoturistas, comparte fotos, reseñas y organiza salidas grupales en la naturaleza.'
   }
 ];
 
@@ -26,10 +26,10 @@ export default function Movil() {
           {/* Título de la sección */}
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-black text-primary uppercase tracking-wide text-center mb-4">
-              DISEÑO <span style={{ color: 'var(--color-secondary)' }}>UX/UI</span>
+            DISEÑO <span style={{ color: 'var(--color-secondary)' }}>UX/UI</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Una experiencia intuitiva y moderna para usuarios móviles.
+            Una experiencia intuitiva y moderna para usuarios móviles.
             </p>
           </div>
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">

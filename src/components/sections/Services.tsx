@@ -1,4 +1,5 @@
 import React from 'react';
+import nft from '../../assets/nft.png';
 
 // Un componente simple para el ícono de flecha, como en la imagen.
 const ArrowUpRightIcon = () => (
@@ -15,13 +16,13 @@ const Services: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
         
         {/* Columna Izquierda */}
-        <div className={`flex flex-col p-8 ${glass}`}>
+        <div className={`flex flex-col p-8 ${glass}`} style={{paddingBottom: 0}}>
           <h2 className="text-6xl font-black text-primary uppercase tracking-wide leading-tight mb-8">
             Explora Mis<br/>Conocimientos
           </h2>
-          {/* Marcador de posición para la imagen 3D */}
-          <div className="bg-white rounded-2xl w-full flex-grow flex items-center justify-center">
-            <p className="text-gray-400">Placeholder para imagen 3D</p>
+          {/* Imagen NFT totalmente pegada abajo, sin margen ni padding */}
+          <div className="w-full flex-grow flex items-end justify-center p-0 m-0" style={{paddingBottom: 0, marginBottom: 0, minHeight: 0}}>
+            <img src={nft} alt="NFT" className="w-3/4 object-contain" style={{marginBottom: 0, paddingBottom: 0, display: 'block'}} />
           </div>
         </div>
 
